@@ -1,0 +1,76 @@
+2025-09-06 01:18:13,612 - INFO - ===== Epoch 1/20 =====
+2025-09-06 01:18:45,844 - INFO - Training Results - Loss: 0.0015 | AUC: 0.9524 | Accuracy: 0.8966 | F1-Score: 0.8966 | Time: 32.22s
+2025-09-06 01:18:59,762 - INFO - Validation Results - Loss: 0.3756 | AUC: 0.9019 | Accuracy: 0.8566 | F1-Score: 0.8239
+2025-09-06 01:19:02,458 - INFO - Saved best model (AUC: 0.9019, F1: 0.8239)
+2025-09-06 01:19:02,458 - INFO - ===== Epoch 2/20 =====
+2025-09-06 01:19:33,657 - INFO - Training Results - Loss: 0.0017 | AUC: 0.9000 | Accuracy: 0.8276 | F1-Score: 0.8000 | Time: 31.20s
+2025-09-06 01:19:48,023 - INFO - Validation Results - Loss: 0.3208 | AUC: 0.9217 | Accuracy: 0.8810 | F1-Score: 0.8558
+2025-09-06 01:19:50,720 - INFO - Saved best model (AUC: 0.9217, F1: 0.8558)
+2025-09-06 01:19:50,720 - INFO - ===== Epoch 3/20 =====
+2025-09-06 01:20:21,778 - INFO - Training Results - Loss: 0.0010 | AUC: 0.9663 | Accuracy: 0.9310 | F1-Score: 0.9412 | Time: 31.05s
+2025-09-06 01:20:36,515 - INFO - Validation Results - Loss: 0.2821 | AUC: 0.9381 | Accuracy: 0.9029 | F1-Score: 0.8772
+2025-09-06 01:20:39,289 - INFO - Saved best model (AUC: 0.9381, F1: 0.8772)
+2025-09-06 01:20:39,289 - INFO - ===== Epoch 4/20 =====
+2025-09-06 01:21:10,549 - INFO - Training Results - Loss: 0.0006 | AUC: 1.0000 | Accuracy: 0.9310 | F1-Score: 0.9286 | Time: 31.26s
+2025-09-06 01:21:24,726 - INFO - Validation Results - Loss: 0.2461 | AUC: 0.9475 | Accuracy: 0.9158 | F1-Score: 0.9005
+2025-09-06 01:21:27,531 - INFO - Saved best model (AUC: 0.9475, F1: 0.9005)
+2025-09-06 01:21:27,531 - INFO - ===== Epoch 5/20 =====
+2025-09-06 01:21:58,568 - INFO - Training Results - Loss: 0.0012 | AUC: 0.9314 | Accuracy: 0.8966 | F1-Score: 0.9032 | Time: 31.03s
+2025-09-06 01:22:12,518 - INFO - Validation Results - Loss: 0.2005 | AUC: 0.9591 | Accuracy: 0.9375 | F1-Score: 0.9251
+2025-09-06 01:22:15,273 - INFO - Saved best model (AUC: 0.9591, F1: 0.9251)
+2025-09-06 01:22:15,273 - INFO - ===== Epoch 6/20 =====
+2025-09-06 01:22:45,942 - INFO - Training Results - Loss: 0.0014 | AUC: 0.9167 | Accuracy: 0.8966 | F1-Score: 0.8571 | Time: 30.66s
+2025-09-06 01:22:59,939 - INFO - Validation Results - Loss: 0.1788 | AUC: 0.9672 | Accuracy: 0.9471 | F1-Score: 0.9363
+2025-09-06 01:23:02,698 - INFO - Saved best model (AUC: 0.9672, F1: 0.9363)
+2025-09-06 01:23:02,698 - INFO - ===== Epoch 7/20 =====
+2025-09-06 01:23:34,161 - INFO - Training Results - Loss: 0.0016 | AUC: 0.9363 | Accuracy: 0.8621 | F1-Score: 0.8182 | Time: 31.46s
+2025-09-06 01:23:48,672 - INFO - Validation Results - Loss: 0.1561 | AUC: 0.9725 | Accuracy: 0.9526 | F1-Score: 0.9436
+2025-09-06 01:23:51,494 - INFO - Saved best model (AUC: 0.9725, F1: 0.9436)
+2025-09-06 01:23:51,494 - INFO - ===== Epoch 8/20 =====
+2025-09-06 01:24:22,294 - INFO - Training Results - Loss: 0.0016 | AUC: 0.9095 | Accuracy: 0.8966 | F1-Score: 0.8966 | Time: 30.80s
+2025-09-06 01:24:36,280 - INFO - Validation Results - Loss: 0.1298 | AUC: 0.9792 | Accuracy: 0.9623 | F1-Score: 0.9548
+2025-09-06 01:24:38,995 - INFO - Saved best model (AUC: 0.9792, F1: 0.9548)
+2025-09-06 01:24:38,995 - INFO - ===== Epoch 9/20 =====
+2025-09-06 01:25:10,570 - INFO - Training Results - Loss: 0.0011 | AUC: 0.9238 | Accuracy: 0.9310 | F1-Score: 0.9231 | Time: 31.57s
+2025-09-06 01:25:24,760 - INFO - Validation Results - Loss: 0.1210 | AUC: 0.9813 | Accuracy: 0.9652 | F1-Score: 0.9589
+2025-09-06 01:25:27,490 - INFO - Saved best model (AUC: 0.9813, F1: 0.9589)
+2025-09-06 01:25:27,490 - INFO - ===== Epoch 10/20 =====
+2025-09-06 01:25:58,713 - INFO - Training Results - Loss: 0.0003 | AUC: 1.0000 | Accuracy: 0.9655 | F1-Score: 0.9697 | Time: 31.22s
+2025-09-06 01:26:12,860 - INFO - Validation Results - Loss: 0.1036 | AUC: 0.9862 | Accuracy: 0.9698 | F1-Score: 0.9643
+2025-09-06 01:26:15,682 - INFO - Saved best model (AUC: 0.9862, F1: 0.9643)
+2025-09-06 01:26:15,682 - INFO - ===== Epoch 11/20 =====
+2025-09-06 01:26:46,871 - INFO - Training Results - Loss: 0.0015 | AUC: 0.8261 | Accuracy: 0.8966 | F1-Score: 0.7692 | Time: 31.19s
+2025-09-06 01:27:01,578 - INFO - Validation Results - Loss: 0.1027 | AUC: 0.9874 | Accuracy: 0.9687 | F1-Score: 0.9637
+2025-09-06 01:27:01,579 - INFO - ===== Epoch 12/20 =====
+2025-09-06 01:27:33,137 - INFO - Training Results - Loss: 0.0008 | AUC: 0.9722 | Accuracy: 0.9310 | F1-Score: 0.8889 | Time: 31.56s
+2025-09-06 01:27:48,007 - INFO - Validation Results - Loss: 0.0872 | AUC: 0.9909 | Accuracy: 0.9725 | F1-Score: 0.9681
+2025-09-06 01:27:50,697 - INFO - Saved best model (AUC: 0.9909, F1: 0.9681)
+2025-09-06 01:27:50,697 - INFO - ===== Epoch 13/20 =====
+2025-09-06 01:28:22,279 - INFO - Training Results - Loss: 0.0008 | AUC: 0.9853 | Accuracy: 0.9310 | F1-Score: 0.9167 | Time: 31.58s
+2025-09-06 01:28:36,596 - INFO - Validation Results - Loss: 0.0770 | AUC: 0.9934 | Accuracy: 0.9765 | F1-Score: 0.9722
+2025-09-06 01:28:39,388 - INFO - Saved best model (AUC: 0.9934, F1: 0.9722)
+2025-09-06 01:28:39,388 - INFO - ===== Epoch 14/20 =====
+2025-09-06 01:29:10,248 - INFO - Training Results - Loss: 0.0005 | AUC: 0.9899 | Accuracy: 0.8966 | F1-Score: 0.8696 | Time: 30.86s
+2025-09-06 01:29:24,203 - INFO - Validation Results - Loss: 0.0637 | AUC: 0.9949 | Accuracy: 0.9792 | F1-Score: 0.9758
+2025-09-06 01:29:26,963 - INFO - Saved best model (AUC: 0.9949, F1: 0.9758)
+2025-09-06 01:29:26,963 - INFO - ===== Epoch 15/20 =====
+2025-09-06 01:29:58,450 - INFO - Training Results - Loss: 0.0003 | AUC: 1.0000 | Accuracy: 0.9655 | F1-Score: 0.9677 | Time: 31.49s
+2025-09-06 01:30:12,597 - INFO - Validation Results - Loss: 0.0690 | AUC: 0.9952 | Accuracy: 0.9765 | F1-Score: 0.9729
+2025-09-06 01:30:12,599 - INFO - ===== Epoch 16/20 =====
+2025-09-06 01:30:43,714 - INFO - Training Results - Loss: 0.0001 | AUC: 1.0000 | Accuracy: 1.0000 | F1-Score: 1.0000 | Time: 31.11s
+2025-09-06 01:30:57,840 - INFO - Validation Results - Loss: 0.0570 | AUC: 0.9962 | Accuracy: 0.9802 | F1-Score: 0.9770
+2025-09-06 01:31:00,593 - INFO - Saved best model (AUC: 0.9962, F1: 0.9770)
+2025-09-06 01:31:00,593 - INFO - ===== Epoch 17/20 =====
+2025-09-06 01:31:32,084 - INFO - Training Results - Loss: 0.0001 | AUC: 1.0000 | Accuracy: 1.0000 | F1-Score: 1.0000 | Time: 31.49s
+2025-09-06 01:31:46,347 - INFO - Validation Results - Loss: 0.0521 | AUC: 0.9969 | Accuracy: 0.9827 | F1-Score: 0.9797
+2025-09-06 01:31:49,038 - INFO - Saved best model (AUC: 0.9969, F1: 0.9797)
+2025-09-06 01:31:49,038 - INFO - ===== Epoch 18/20 =====
+2025-09-06 01:32:19,990 - INFO - Training Results - Loss: 0.0000 | AUC: 1.0000 | Accuracy: 1.0000 | F1-Score: 1.0000 | Time: 30.95s
+2025-09-06 01:32:34,773 - INFO - Validation Results - Loss: 0.0534 | AUC: 0.9970 | Accuracy: 0.9819 | F1-Score: 0.9790
+2025-09-06 01:32:34,773 - INFO - ===== Epoch 19/20 =====
+2025-09-06 01:33:06,036 - INFO - Training Results - Loss: 0.0006 | AUC: 0.9944 | Accuracy: 0.9655 | F1-Score: 0.9412 | Time: 31.26s
+2025-09-06 01:33:20,038 - INFO - Validation Results - Loss: 0.0452 | AUC: 0.9978 | Accuracy: 0.9841 | F1-Score: 0.9814
+2025-09-06 01:33:22,780 - INFO - Saved best model (AUC: 0.9978, F1: 0.9814)
+2025-09-06 01:33:22,780 - INFO - ===== Epoch 20/20 =====
+2025-09-06 01:33:53,472 - INFO - Training Results - Loss: 0.0000 | AUC: 1.0000 | Accuracy: 1.0000 | F1-Score: 1.0000 | Time: 30.69s
+2025-09-06 01:34:07,272 - INFO - Validation Results - Loss: 0.0445 | AUC: 0.9981 | Accuracy: 0.9838 | F1-Score: 0.9811
