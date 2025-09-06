@@ -74,6 +74,7 @@ python src/三推理和提交.py
    - 基于`microsoft/deberta-v3-base`预训练模型
    - 使用[CLS] token的输出进行分类
    - 输出维度: 64
+   - DeBERTa模型详情请参见《DeBERTa：从BERT问题出发的NLP模型革新》文档，该文档详细介绍了DeBERTa相对于BERT的改进点，包括解耦注意力机制、增强掩码策略等创新设计
 
 2. **特征模型 (FeatureModel)**:
    - 处理文本以外的特征数据
