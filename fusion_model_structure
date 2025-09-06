@@ -1,0 +1,31 @@
+// NLP + Feature Fusion Model
+digraph {
+	rankdir=LR size=8
+	subgraph cluster_feature {
+		label=FeatureModel style=dashed
+		feature_in [label="Features (feature_dim)" shape=box]
+		f_emb [label="Linear(feature_dim → embedding_dim)"]
+		f_hidden [label="Linear(embedding_dim → hidden_dim) + ReLU"]
+		f_out [label="Linear(hidden_dim → output_dim)"]
+		feature_in -> f_emb
+		f_emb -> f_hidden
+		f_hidden -> f_out
+	}
+	subgraph cluster_text {
+		label="TextModel (DeBERTa-v3-base)" style=dashed
+		text_in [label="Input Text (input_ids, attention_mask)" shape=box]
+		deberta [label="Pretrained DeBERTa Transformer"]
+		cls [label="[CLS] token output"]
+		t_out [label="Linear(hidden_size → num_classes)"]
+		text_in -> deberta
+		deberta -> cls
+		cls -> t_out
+	}
+	concat [label="Concatenate [text_out, feature_out]" shape=oval]
+	combined [label="Linear + ReLU (combined_hidden_dim)"]
+	classifier [label="Linear → num_classes (final output)" shape=box]
+	f_out -> concat
+	t_out -> concat
+	concat -> combined
+	combined -> classifier
+}
