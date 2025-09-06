@@ -35,17 +35,12 @@ pip install -r requirements.txt
 
 3. 训练模型
 ```bash
-python src/二模型构建和训练.py \
-    --data_dir data/train_cleaned.csv \
-    --model_save best_model.pt
+python src/二模型构建和训练.py 
 ```
 
 4. 生成提交
 ```bash
-python src/三推理和提交.py \
-    --test_data data/test_cleaned.csv \
-    --model_path best_model.pt \
-    --output submission.csv
+python src/三推理和提交.py 
 ```
 
 ## 代码模块说明
@@ -63,6 +58,12 @@ python src/三推理和提交.py \
 
 ## 数据集说明
 数据来源：Kaggle灾难推文分类竞赛
+
+## 数据分析
+
+通过数据探查可见，location（推文发布地点）字段的缺失率约为 33%，意味着近 1/3 的样本未记录发布地点信息；而核心文本字段text无缺失，keyword（推文中的关键词）字段缺失率极低（仅 0.8%），整体数据质量符合文本分类任务的基础要求，但location字段的高缺失率需在后续预处理中重点处理（如通过 "Unknown" 填充或结合业务逻辑判断是否保留该字段）。
+
+更详细的洞察性数据分析可参考一洞察性数据分析.ipynb 😊😊
 
 ## 评估指标
 使用F1-score作为评估标准：
